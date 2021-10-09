@@ -1,5 +1,5 @@
 # Obsidian better editor typography
-This is a CSS to make better the Obsidian editor typogaphy. 
+This is a CSS to make better the Obsidian editor typogaphy and writing experience. 
 
 ## How to use
 Just create a custom CSS Snippet in your Obsidian with this code and be happy.
