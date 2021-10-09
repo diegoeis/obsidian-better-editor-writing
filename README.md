@@ -1,4 +1,4 @@
-# obsidian-better-typo
+# Obsidian better editor typography
 This is a CSS to make better the Obsidian editor typogaphy. 
 
 ## How to use
