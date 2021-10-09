@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+
+.CodeMirror-code {
+  font-family: Open Sans, Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+/***** 
+ * BLOCKQUOTE
+****/
+pre.HyperMD-quote,
+.markdown-preview-view blockquote {
+  background-color: rgba(0, 0, 0, .05) !important;
+  padding: 20px !important;
+  font-style: italic;
+  text-indent: 0 !important;
+  margin: 30px auto;
+  color: rgba(0, 0, 0, .7) !important;
+  border-left:  5px solid var(--text-accent) !important;
+
+}
+
+.cm-s-obsidian span.cm-quote {color: rgba(0, 0, 0, .7) !important;}
+
+
+pre.HyperMD-quote .cm-formatting.cm-formatting-quote.cm-formatting-quote-1.cm-quote {
+  display: none;
+}
+
+
+
+/***** 
+ * Name of File 
+ ****/
+.workspace-split.mod-root > .workspace-leaf:first-of-type:last-of-type .view-header {
+  border-bottom:  1px solid var(--background-secondary-alt) !important;
+}
+
+.view-header-title-container {
+  width:  auto;
+  padding-top: 1px;
+}
+
+.view-header-icon {display: none;}
+
+.workspace-leaf.mod-active .view-header-title {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: rgba(0,0,0,.5);
+  backdrop-filter: blur(5px);
+  padding-left:  10px;
+}
+
+
+.workspace-split.mod-root > .workspace-leaf:first-of-type:last-of-type .view-header {
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+
+/*****
+ * Titles
+****/
+
+
+ /* Title of Note */
+
+pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 .cm-header-1{
+  font-weight: 800;
+  font-size:  2.3em;
+  line-height: 1.2;
+  word-spacing: -1px;
+  padding-bottom: 30px;
+  color: #000;
+}
+
+pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 .cm-formatting.cm-formatting-header.cm-formatting-header-1 {
+  padding-bottom:  0 !important;
+  line-height: 0 !important;
+}
+
+.cm-header-1 {font-size: 1.9em;}
+.cm-header-2 {font-size: 1.6em;}
+.cm-header-3 {font-size: 1.37em;}
+.cm-header-4 {font-size: 1.25em;}
+.cm-header-5, .cm-header-6 {font-size: 1.12em;}
+
+
+/*****
+ * Hashs signals
+ ****/
+ .HyperMD-header .cm-formatting {
+  font-size: 90%;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -5px !important;
+ }
+
+
+
+/*****
+ * Listing
+ ****/
+.cm-formatting-list-ul {
+  color:  rgba(0,0,0,0) !important;
+}
+
+.cm-formatting-list-ul:before,
+.cm-hmd-list-indent-1 + .cm-list-1:before {
+  content:  "";
+  background: #000 !important;
+  border-radius: 100%;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  vertical-align: middle;
+  position: relative;
+  top:  -1px;
+  left: 3px;
+} 
+
+.cm-hmd-list-indent-1 + .cm-list-1:before {
+  left: 8px !important;
+  top:  -3px;
+  border: 2px solid #fff;
+  background: rgba(100, 100, 100, 1) !important;
+}
+
+
+
+/*****
+ * HASHTAG - Tags
+ ****/
+
+.cm-hashtag {
+  background:  rgba(0, 0, 0, .05) !important;
+  color:  #000 !important;
+}
+
+span.cm-hashtag.cm-hashtag-begin {
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  padding-left: 8px;
+  border-right: none;
+  border-left: 1px solid var(--background-modifier-border);
+}
+
+span.cm-hashtag.cm-hashtag-end {
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  border-left: none;
+  padding-right: 8px;
+  border-right: 1px solid var(--background-modifier-border);
+}
+
+.cm-s-obsidian span.cm-hashtag {
+  background-color: var(--text-accent) !important;
+  border: 1px solid var(--background-modifier-border);
+  color: rgba(255,255,255,.8) !important;
+  font-size: .8rem !important;
+  font-family: var(--font-ui);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 0;
+  vertical-align: middle;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-left: none;
+  border-right: none;
+  cursor: text;
+}
+
+
+
+
+
