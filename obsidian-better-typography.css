@@ -2,7 +2,7 @@
 
 
 .CodeMirror-code {
-  font-family: Open Sans, Roboto, Helvetica, Arial, sans-serif;
+  font-family: Open Sans, Helvetica, Arial, sans-serif;
 }
 
 
@@ -64,7 +64,7 @@ pre.HyperMD-quote .cm-formatting.cm-formatting-quote.cm-formatting-quote-1.cm-qu
 
 
  /* Title of Note */
-
+pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 {font-size:  100%;}
 pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 .cm-header-1{
   font-weight: 800;
   font-size:  2.3em;
@@ -130,7 +130,7 @@ pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 .cm-formatting.cm-formatting-
 
 
 /*****
- * HASHTAG - Tags
+ * Tags
  ****/
 
 .cm-hashtag {
@@ -156,7 +156,7 @@ span.cm-hashtag.cm-hashtag-end {
 
 .cm-s-obsidian span.cm-hashtag {
   background-color: var(--text-accent) !important;
-  border: 1px solid var(--background-modifier-border);
+  border: 1px solid transparent;
   color: rgba(255,255,255,.8) !important;
   font-size: .8rem !important;
   font-family: var(--font-ui);
