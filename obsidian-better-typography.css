@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 
-
 .CodeMirror-code {
   font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+
+:root {
+  --line-width: 45rem;
 }
 
 
@@ -58,6 +62,8 @@ pre.HyperMD-quote .cm-formatting.cm-formatting-quote.cm-formatting-quote-1.cm-qu
 }
 
 
+
+
 /*****
  * Titles
 ****/
@@ -99,6 +105,18 @@ pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 .cm-formatting.cm-formatting-
 
 
 
+
+
+/*****
+ * link
+ ****/
+
+.cm-link {
+  color:  var(--text-accent) !important;
+  font-weight: bold;
+}
+
+
 /*****
  * Listing
  ****/
@@ -126,6 +144,8 @@ pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 .cm-formatting.cm-formatting-
   border: 2px solid #fff;
   background: rgba(100, 100, 100, 1) !important;
 }
+
+
 
 
 
@@ -171,8 +191,4 @@ span.cm-hashtag.cm-hashtag-end {
   border-right: none;
   cursor: text;
 }
-
-
-
-
 
